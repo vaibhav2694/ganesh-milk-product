@@ -3,6 +3,8 @@ import { Container, Typography, Button, Grid, Card, CardContent, CardMedia, Box 
 import { ArrowForward } from "@mui/icons-material";
 import { Carousel } from "react-responsive-carousel";  // Import the carousel
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import CSS for carousel
+import { Link } from 'react-router-dom';
+
 
 // Product data with local image paths
 const productData = [
@@ -57,9 +59,16 @@ function Home() {
                 <Typography variant="h6" gutterBottom>
                     सन १९९० पासून आपल्या सेवेत...
                 </Typography>
-                <Button variant="contained" color="primary" sx={{ mt: 3 }}>
+                <Button
+                    variant="contained"
+                    color="primary"
+                    component={Link}
+                    to="/Contact"
+                    sx={{ mt: 3 }}
+                >
                     अधिक जाणून घ्या
                 </Button>
+
             </Container>
 
             {/* Carousel Section */}
