@@ -64,7 +64,7 @@ function Home() {
 
             {/* Carousel Section */}
             <Container sx={{ pt: 5 }}>
-                <Typography variant="h4" gutterBottom align="center" sx={{ fontWeight: 500 }}>
+                <Typography variant="h5" gutterBottom align="center" sx={{ fontWeight: 500 }}>
                     ♦ आमची दर्जेदार उत्पादने ♦
                 </Typography>
                 <Box sx={{ maxWidth: "100%" }}>
@@ -84,8 +84,8 @@ function Home() {
 
             {/* Product Grid Section */}
             <Container sx={{ pt: 5, pb: 10 }}>
-                <Typography variant="h4" gutterBottom align="center" sx={{ fontWeight: 500 }}>
-                    ♦ आमची उच्च प्रतीची उत्पादने ♦
+                <Typography variant="h5" gutterBottom align="center" sx={{ fontWeight: 500 }}>
+                    ♦ आमची दर्जेदार उत्पादने ♦
                 </Typography>
                 <Grid container spacing={4}>
                     {productList.map((product, index) => (

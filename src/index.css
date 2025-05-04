@@ -13,8 +13,8 @@ html, body, #root {
 
 .carousel .slide img {
   width: 100%;
-  height: 500px; /* Set the height as needed */
-  object-fit: cover; /* Ensures images fill the space without distorting */
+  height: auto; /* Set the height as needed */
+ /* Ensures images fill the space without distorting */
   border-radius: 8px;
 }
 
